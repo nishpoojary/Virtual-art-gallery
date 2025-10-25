@@ -1,0 +1,976 @@
+[27-May-2025 16:35:35 Europe/Berlin] SQL Query: INSERT INTO items (name, price, description, image, user_id) VALUES (?, ?, ?, ?, ?)
+[27-May-2025 16:35:35 Europe/Berlin] Prepare failed: 
+[27-May-2025 16:35:53 Europe/Berlin] SQL Query: INSERT INTO items (name, price, description, image, user_id) VALUES (?, ?, ?, ?, ?)
+[27-May-2025 16:35:53 Europe/Berlin] Prepare failed: 
+[27-May-2025 16:37:20 Europe/Berlin] SQL Query: INSERT INTO items (name, price, description, image, user_id) VALUES (?, ?, ?, ?, ?)
+[27-May-2025 16:37:20 Europe/Berlin] Attempting to prepare query: INSERT INTO items (name, price, description, image, user_id) VALUES (?, ?, ?, ?, ?)
+[27-May-2025 16:37:20 Europe/Berlin] Prepare failed: 
+[27-May-2025 16:38:41 Europe/Berlin] Available tables:
+[27-May-2025 16:38:41 Europe/Berlin] admin
+[27-May-2025 16:38:41 Europe/Berlin] checkout
+[27-May-2025 16:38:41 Europe/Berlin] comments
+[27-May-2025 16:38:41 Europe/Berlin] items
+[27-May-2025 16:38:41 Europe/Berlin] likes
+[27-May-2025 16:38:41 Europe/Berlin] users
+[27-May-2025 16:38:41 Europe/Berlin] users_items
+[27-May-2025 16:38:41 Europe/Berlin] Items table structure:
+[27-May-2025 16:38:41 Europe/Berlin] Array
+(
+    [Field] => id
+    [Type] => int(11)
+    [Null] => NO
+    [Key] => PRI
+    [Default] => 
+    [Extra] => auto_increment
+)
+
+[27-May-2025 16:38:41 Europe/Berlin] Array
+(
+    [Field] => name
+    [Type] => varchar(255)
+    [Null] => NO
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 16:38:41 Europe/Berlin] Array
+(
+    [Field] => price
+    [Type] => int(11)
+    [Null] => NO
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 16:38:41 Europe/Berlin] Test query: INSERT INTO items (name, price, description, image, user_id) 
+                          VALUES ('test', 1111, 'test', 'Uploads/1748356721_WhatsApp Image 2025-05-26 at 10.33.01_4922a61f.jpg', 11)
+[27-May-2025 16:38:41 Europe/Berlin] Error in add_artwork.php: Unknown column 'description' in 'field list'
+[27-May-2025 16:39:09 Europe/Berlin] Available tables:
+[27-May-2025 16:39:09 Europe/Berlin] admin
+[27-May-2025 16:39:09 Europe/Berlin] checkout
+[27-May-2025 16:39:09 Europe/Berlin] comments
+[27-May-2025 16:39:09 Europe/Berlin] items
+[27-May-2025 16:39:09 Europe/Berlin] likes
+[27-May-2025 16:39:09 Europe/Berlin] users
+[27-May-2025 16:39:09 Europe/Berlin] users_items
+[27-May-2025 16:39:09 Europe/Berlin] Items table structure:
+[27-May-2025 16:39:09 Europe/Berlin] Array
+(
+    [Field] => id
+    [Type] => int(11)
+    [Null] => NO
+    [Key] => PRI
+    [Default] => 
+    [Extra] => auto_increment
+)
+
+[27-May-2025 16:39:09 Europe/Berlin] Array
+(
+    [Field] => name
+    [Type] => varchar(255)
+    [Null] => NO
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 16:39:09 Europe/Berlin] Array
+(
+    [Field] => price
+    [Type] => int(11)
+    [Null] => NO
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 16:39:09 Europe/Berlin] Array
+(
+    [Field] => description
+    [Type] => text
+    [Null] => YES
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 16:39:09 Europe/Berlin] Test query: INSERT INTO items (name, price, description, image, user_id) 
+                          VALUES ('test', 1111, 'test', 'Uploads/1748356749_WhatsApp Image 2025-05-26 at 10.33.01_4922a61f.jpg', 11)
+[27-May-2025 16:39:09 Europe/Berlin] Error in add_artwork.php: Unknown column 'image' in 'field list'
+[27-May-2025 16:41:23 Europe/Berlin] Available tables:
+[27-May-2025 16:41:23 Europe/Berlin] admin
+[27-May-2025 16:41:23 Europe/Berlin] checkout
+[27-May-2025 16:41:23 Europe/Berlin] comments
+[27-May-2025 16:41:23 Europe/Berlin] items
+[27-May-2025 16:41:23 Europe/Berlin] likes
+[27-May-2025 16:41:23 Europe/Berlin] users
+[27-May-2025 16:41:23 Europe/Berlin] users_items
+[27-May-2025 16:41:23 Europe/Berlin] Items table structure:
+[27-May-2025 16:41:23 Europe/Berlin] Array
+(
+    [Field] => id
+    [Type] => int(11)
+    [Null] => NO
+    [Key] => PRI
+    [Default] => 
+    [Extra] => auto_increment
+)
+
+[27-May-2025 16:41:23 Europe/Berlin] Array
+(
+    [Field] => name
+    [Type] => varchar(255)
+    [Null] => NO
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 16:41:23 Europe/Berlin] Array
+(
+    [Field] => price
+    [Type] => int(11)
+    [Null] => NO
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 16:41:23 Europe/Berlin] Array
+(
+    [Field] => description
+    [Type] => text
+    [Null] => YES
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 16:41:23 Europe/Berlin] Test query: INSERT INTO items (name, price, description, image, user_id) 
+                          VALUES ('test', 1111, 'test', 'Uploads/1748356883_WhatsApp Image 2025-05-26 at 10.33.01_4922a61f.jpg', 11)
+[27-May-2025 16:41:23 Europe/Berlin] Error in add_artwork.php: Unknown column 'image' in 'field list'
+[27-May-2025 16:42:16 Europe/Berlin] Available tables:
+[27-May-2025 16:42:16 Europe/Berlin] admin
+[27-May-2025 16:42:16 Europe/Berlin] checkout
+[27-May-2025 16:42:16 Europe/Berlin] comments
+[27-May-2025 16:42:16 Europe/Berlin] items
+[27-May-2025 16:42:16 Europe/Berlin] likes
+[27-May-2025 16:42:16 Europe/Berlin] users
+[27-May-2025 16:42:16 Europe/Berlin] users_items
+[27-May-2025 16:42:16 Europe/Berlin] Items table structure:
+[27-May-2025 16:42:16 Europe/Berlin] Array
+(
+    [Field] => id
+    [Type] => int(11)
+    [Null] => NO
+    [Key] => PRI
+    [Default] => 
+    [Extra] => auto_increment
+)
+
+[27-May-2025 16:42:16 Europe/Berlin] Array
+(
+    [Field] => name
+    [Type] => varchar(255)
+    [Null] => NO
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 16:42:16 Europe/Berlin] Array
+(
+    [Field] => price
+    [Type] => int(11)
+    [Null] => NO
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 16:42:16 Europe/Berlin] Array
+(
+    [Field] => description
+    [Type] => text
+    [Null] => YES
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 16:42:16 Europe/Berlin] Array
+(
+    [Field] => image
+    [Type] => varchar(255)
+    [Null] => YES
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 16:42:16 Europe/Berlin] Test query: INSERT INTO items (name, price, description, image, user_id) 
+                          VALUES ('test', 1111, 'test', 'Uploads/1748356936_WhatsApp Image 2025-05-26 at 10.33.01_4922a61f.jpg', 11)
+[27-May-2025 16:42:16 Europe/Berlin] Error in add_artwork.php: Unknown column 'user_id' in 'field list'
+[27-May-2025 16:42:53 Europe/Berlin] Available tables:
+[27-May-2025 16:42:53 Europe/Berlin] admin
+[27-May-2025 16:42:53 Europe/Berlin] checkout
+[27-May-2025 16:42:53 Europe/Berlin] comments
+[27-May-2025 16:42:53 Europe/Berlin] items
+[27-May-2025 16:42:53 Europe/Berlin] likes
+[27-May-2025 16:42:53 Europe/Berlin] users
+[27-May-2025 16:42:53 Europe/Berlin] users_items
+[27-May-2025 16:42:53 Europe/Berlin] Items table structure:
+[27-May-2025 16:42:53 Europe/Berlin] Array
+(
+    [Field] => id
+    [Type] => int(11)
+    [Null] => NO
+    [Key] => PRI
+    [Default] => 
+    [Extra] => auto_increment
+)
+
+[27-May-2025 16:42:53 Europe/Berlin] Array
+(
+    [Field] => name
+    [Type] => varchar(255)
+    [Null] => NO
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 16:42:53 Europe/Berlin] Array
+(
+    [Field] => price
+    [Type] => int(11)
+    [Null] => NO
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 16:42:53 Europe/Berlin] Array
+(
+    [Field] => description
+    [Type] => text
+    [Null] => YES
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 16:42:53 Europe/Berlin] Array
+(
+    [Field] => image
+    [Type] => varchar(255)
+    [Null] => YES
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 16:42:53 Europe/Berlin] Array
+(
+    [Field] => user_id
+    [Type] => int(11)
+    [Null] => YES
+    [Key] => MUL
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 16:42:53 Europe/Berlin] Test query: INSERT INTO items (name, price, description, image, user_id) 
+                          VALUES ('test', 1111, 'test', 'Uploads/1748356973_WhatsApp Image 2025-05-26 at 10.33.01_4922a61f.jpg', 11)
+[27-May-2025 17:23:44 Europe/Berlin] Available tables:
+[27-May-2025 17:23:44 Europe/Berlin] admin
+[27-May-2025 17:23:44 Europe/Berlin] checkout
+[27-May-2025 17:23:44 Europe/Berlin] comments
+[27-May-2025 17:23:44 Europe/Berlin] items
+[27-May-2025 17:23:44 Europe/Berlin] likes
+[27-May-2025 17:23:44 Europe/Berlin] users
+[27-May-2025 17:23:44 Europe/Berlin] users_items
+[27-May-2025 17:23:44 Europe/Berlin] Items table structure:
+[27-May-2025 17:23:44 Europe/Berlin] Array
+(
+    [Field] => id
+    [Type] => int(11)
+    [Null] => NO
+    [Key] => PRI
+    [Default] => 
+    [Extra] => auto_increment
+)
+
+[27-May-2025 17:23:44 Europe/Berlin] Array
+(
+    [Field] => name
+    [Type] => varchar(255)
+    [Null] => NO
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:23:44 Europe/Berlin] Array
+(
+    [Field] => price
+    [Type] => int(11)
+    [Null] => NO
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:23:44 Europe/Berlin] Array
+(
+    [Field] => description
+    [Type] => text
+    [Null] => YES
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:23:44 Europe/Berlin] Array
+(
+    [Field] => image
+    [Type] => varchar(255)
+    [Null] => YES
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:23:44 Europe/Berlin] Array
+(
+    [Field] => user_id
+    [Type] => int(11)
+    [Null] => YES
+    [Key] => MUL
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:23:47 Europe/Berlin] Available tables:
+[27-May-2025 17:23:47 Europe/Berlin] admin
+[27-May-2025 17:23:47 Europe/Berlin] checkout
+[27-May-2025 17:23:47 Europe/Berlin] comments
+[27-May-2025 17:23:47 Europe/Berlin] items
+[27-May-2025 17:23:47 Europe/Berlin] likes
+[27-May-2025 17:23:47 Europe/Berlin] users
+[27-May-2025 17:23:47 Europe/Berlin] users_items
+[27-May-2025 17:23:47 Europe/Berlin] Items table structure:
+[27-May-2025 17:23:47 Europe/Berlin] Array
+(
+    [Field] => id
+    [Type] => int(11)
+    [Null] => NO
+    [Key] => PRI
+    [Default] => 
+    [Extra] => auto_increment
+)
+
+[27-May-2025 17:23:47 Europe/Berlin] Array
+(
+    [Field] => name
+    [Type] => varchar(255)
+    [Null] => NO
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:23:47 Europe/Berlin] Array
+(
+    [Field] => price
+    [Type] => int(11)
+    [Null] => NO
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:23:47 Europe/Berlin] Array
+(
+    [Field] => description
+    [Type] => text
+    [Null] => YES
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:23:47 Europe/Berlin] Array
+(
+    [Field] => image
+    [Type] => varchar(255)
+    [Null] => YES
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:23:47 Europe/Berlin] Array
+(
+    [Field] => user_id
+    [Type] => int(11)
+    [Null] => YES
+    [Key] => MUL
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:23:50 Europe/Berlin] Available tables:
+[27-May-2025 17:23:50 Europe/Berlin] admin
+[27-May-2025 17:23:50 Europe/Berlin] checkout
+[27-May-2025 17:23:50 Europe/Berlin] comments
+[27-May-2025 17:23:50 Europe/Berlin] items
+[27-May-2025 17:23:50 Europe/Berlin] likes
+[27-May-2025 17:23:50 Europe/Berlin] users
+[27-May-2025 17:23:50 Europe/Berlin] users_items
+[27-May-2025 17:23:50 Europe/Berlin] Items table structure:
+[27-May-2025 17:23:50 Europe/Berlin] Array
+(
+    [Field] => id
+    [Type] => int(11)
+    [Null] => NO
+    [Key] => PRI
+    [Default] => 
+    [Extra] => auto_increment
+)
+
+[27-May-2025 17:23:50 Europe/Berlin] Array
+(
+    [Field] => name
+    [Type] => varchar(255)
+    [Null] => NO
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:23:50 Europe/Berlin] Array
+(
+    [Field] => price
+    [Type] => int(11)
+    [Null] => NO
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:23:50 Europe/Berlin] Array
+(
+    [Field] => description
+    [Type] => text
+    [Null] => YES
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:23:50 Europe/Berlin] Array
+(
+    [Field] => image
+    [Type] => varchar(255)
+    [Null] => YES
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:23:50 Europe/Berlin] Array
+(
+    [Field] => user_id
+    [Type] => int(11)
+    [Null] => YES
+    [Key] => MUL
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:24:31 Europe/Berlin] Available tables:
+[27-May-2025 17:24:31 Europe/Berlin] admin
+[27-May-2025 17:24:31 Europe/Berlin] checkout
+[27-May-2025 17:24:31 Europe/Berlin] comments
+[27-May-2025 17:24:31 Europe/Berlin] items
+[27-May-2025 17:24:31 Europe/Berlin] likes
+[27-May-2025 17:24:31 Europe/Berlin] users
+[27-May-2025 17:24:31 Europe/Berlin] users_items
+[27-May-2025 17:24:31 Europe/Berlin] Items table structure:
+[27-May-2025 17:24:31 Europe/Berlin] Array
+(
+    [Field] => id
+    [Type] => int(11)
+    [Null] => NO
+    [Key] => PRI
+    [Default] => 
+    [Extra] => auto_increment
+)
+
+[27-May-2025 17:24:31 Europe/Berlin] Array
+(
+    [Field] => name
+    [Type] => varchar(255)
+    [Null] => NO
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:24:31 Europe/Berlin] Array
+(
+    [Field] => price
+    [Type] => int(11)
+    [Null] => NO
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:24:31 Europe/Berlin] Array
+(
+    [Field] => description
+    [Type] => text
+    [Null] => YES
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:24:31 Europe/Berlin] Array
+(
+    [Field] => image
+    [Type] => varchar(255)
+    [Null] => YES
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:24:31 Europe/Berlin] Array
+(
+    [Field] => user_id
+    [Type] => int(11)
+    [Null] => YES
+    [Key] => MUL
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:36:17 Europe/Berlin] Available tables:
+[27-May-2025 17:36:17 Europe/Berlin] admin
+[27-May-2025 17:36:17 Europe/Berlin] checkout
+[27-May-2025 17:36:17 Europe/Berlin] comments
+[27-May-2025 17:36:17 Europe/Berlin] items
+[27-May-2025 17:36:17 Europe/Berlin] likes
+[27-May-2025 17:36:17 Europe/Berlin] users
+[27-May-2025 17:36:17 Europe/Berlin] users_items
+[27-May-2025 17:36:17 Europe/Berlin] Items table structure:
+[27-May-2025 17:36:17 Europe/Berlin] Array
+(
+    [Field] => id
+    [Type] => int(11)
+    [Null] => NO
+    [Key] => PRI
+    [Default] => 
+    [Extra] => auto_increment
+)
+
+[27-May-2025 17:36:17 Europe/Berlin] Array
+(
+    [Field] => name
+    [Type] => varchar(255)
+    [Null] => NO
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:36:17 Europe/Berlin] Array
+(
+    [Field] => price
+    [Type] => int(11)
+    [Null] => NO
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:36:17 Europe/Berlin] Array
+(
+    [Field] => description
+    [Type] => text
+    [Null] => YES
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:36:17 Europe/Berlin] Array
+(
+    [Field] => image
+    [Type] => varchar(255)
+    [Null] => YES
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:36:17 Europe/Berlin] Array
+(
+    [Field] => user_id
+    [Type] => int(11)
+    [Null] => YES
+    [Key] => MUL
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:39:27 Europe/Berlin] Available tables:
+[27-May-2025 17:39:27 Europe/Berlin] admin
+[27-May-2025 17:39:27 Europe/Berlin] checkout
+[27-May-2025 17:39:27 Europe/Berlin] comments
+[27-May-2025 17:39:27 Europe/Berlin] items
+[27-May-2025 17:39:27 Europe/Berlin] likes
+[27-May-2025 17:39:27 Europe/Berlin] users
+[27-May-2025 17:39:27 Europe/Berlin] users_items
+[27-May-2025 17:39:27 Europe/Berlin] Items table structure:
+[27-May-2025 17:39:27 Europe/Berlin] Array
+(
+    [Field] => id
+    [Type] => int(11)
+    [Null] => NO
+    [Key] => PRI
+    [Default] => 
+    [Extra] => auto_increment
+)
+
+[27-May-2025 17:39:27 Europe/Berlin] Array
+(
+    [Field] => name
+    [Type] => varchar(255)
+    [Null] => NO
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:39:27 Europe/Berlin] Array
+(
+    [Field] => price
+    [Type] => int(11)
+    [Null] => NO
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:39:27 Europe/Berlin] Array
+(
+    [Field] => description
+    [Type] => text
+    [Null] => YES
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:39:27 Europe/Berlin] Array
+(
+    [Field] => image
+    [Type] => varchar(255)
+    [Null] => YES
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:39:27 Europe/Berlin] Array
+(
+    [Field] => user_id
+    [Type] => int(11)
+    [Null] => YES
+    [Key] => MUL
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:40:22 Europe/Berlin] Available tables:
+[27-May-2025 17:40:22 Europe/Berlin] admin
+[27-May-2025 17:40:22 Europe/Berlin] checkout
+[27-May-2025 17:40:22 Europe/Berlin] comments
+[27-May-2025 17:40:22 Europe/Berlin] items
+[27-May-2025 17:40:22 Europe/Berlin] likes
+[27-May-2025 17:40:22 Europe/Berlin] users
+[27-May-2025 17:40:22 Europe/Berlin] users_items
+[27-May-2025 17:40:22 Europe/Berlin] Items table structure:
+[27-May-2025 17:40:22 Europe/Berlin] Array
+(
+    [Field] => id
+    [Type] => int(11)
+    [Null] => NO
+    [Key] => PRI
+    [Default] => 
+    [Extra] => auto_increment
+)
+
+[27-May-2025 17:40:22 Europe/Berlin] Array
+(
+    [Field] => name
+    [Type] => varchar(255)
+    [Null] => NO
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:40:22 Europe/Berlin] Array
+(
+    [Field] => price
+    [Type] => int(11)
+    [Null] => NO
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:40:22 Europe/Berlin] Array
+(
+    [Field] => description
+    [Type] => text
+    [Null] => YES
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:40:22 Europe/Berlin] Array
+(
+    [Field] => image
+    [Type] => varchar(255)
+    [Null] => YES
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:40:22 Europe/Berlin] Array
+(
+    [Field] => user_id
+    [Type] => int(11)
+    [Null] => YES
+    [Key] => MUL
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:40:29 Europe/Berlin] Available tables:
+[27-May-2025 17:40:29 Europe/Berlin] admin
+[27-May-2025 17:40:29 Europe/Berlin] checkout
+[27-May-2025 17:40:29 Europe/Berlin] comments
+[27-May-2025 17:40:29 Europe/Berlin] items
+[27-May-2025 17:40:29 Europe/Berlin] likes
+[27-May-2025 17:40:29 Europe/Berlin] users
+[27-May-2025 17:40:29 Europe/Berlin] users_items
+[27-May-2025 17:40:29 Europe/Berlin] Items table structure:
+[27-May-2025 17:40:29 Europe/Berlin] Array
+(
+    [Field] => id
+    [Type] => int(11)
+    [Null] => NO
+    [Key] => PRI
+    [Default] => 
+    [Extra] => auto_increment
+)
+
+[27-May-2025 17:40:29 Europe/Berlin] Array
+(
+    [Field] => name
+    [Type] => varchar(255)
+    [Null] => NO
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:40:29 Europe/Berlin] Array
+(
+    [Field] => price
+    [Type] => int(11)
+    [Null] => NO
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:40:29 Europe/Berlin] Array
+(
+    [Field] => description
+    [Type] => text
+    [Null] => YES
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:40:29 Europe/Berlin] Array
+(
+    [Field] => image
+    [Type] => varchar(255)
+    [Null] => YES
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:40:29 Europe/Berlin] Array
+(
+    [Field] => user_id
+    [Type] => int(11)
+    [Null] => YES
+    [Key] => MUL
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:40:49 Europe/Berlin] Available tables:
+[27-May-2025 17:40:49 Europe/Berlin] admin
+[27-May-2025 17:40:49 Europe/Berlin] checkout
+[27-May-2025 17:40:49 Europe/Berlin] comments
+[27-May-2025 17:40:49 Europe/Berlin] items
+[27-May-2025 17:40:49 Europe/Berlin] likes
+[27-May-2025 17:40:49 Europe/Berlin] users
+[27-May-2025 17:40:49 Europe/Berlin] users_items
+[27-May-2025 17:40:49 Europe/Berlin] Items table structure:
+[27-May-2025 17:40:49 Europe/Berlin] Array
+(
+    [Field] => id
+    [Type] => int(11)
+    [Null] => NO
+    [Key] => PRI
+    [Default] => 
+    [Extra] => auto_increment
+)
+
+[27-May-2025 17:40:49 Europe/Berlin] Array
+(
+    [Field] => name
+    [Type] => varchar(255)
+    [Null] => NO
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:40:49 Europe/Berlin] Array
+(
+    [Field] => price
+    [Type] => int(11)
+    [Null] => NO
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:40:49 Europe/Berlin] Array
+(
+    [Field] => description
+    [Type] => text
+    [Null] => YES
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:40:49 Europe/Berlin] Array
+(
+    [Field] => image
+    [Type] => varchar(255)
+    [Null] => YES
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:40:49 Europe/Berlin] Array
+(
+    [Field] => user_id
+    [Type] => int(11)
+    [Null] => YES
+    [Key] => MUL
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:43:44 Europe/Berlin] Available tables:
+[27-May-2025 17:43:44 Europe/Berlin] admin
+[27-May-2025 17:43:44 Europe/Berlin] checkout
+[27-May-2025 17:43:44 Europe/Berlin] comments
+[27-May-2025 17:43:44 Europe/Berlin] items
+[27-May-2025 17:43:44 Europe/Berlin] likes
+[27-May-2025 17:43:44 Europe/Berlin] users
+[27-May-2025 17:43:44 Europe/Berlin] users_items
+[27-May-2025 17:43:44 Europe/Berlin] Items table structure:
+[27-May-2025 17:43:44 Europe/Berlin] Array
+(
+    [Field] => id
+    [Type] => int(11)
+    [Null] => NO
+    [Key] => PRI
+    [Default] => 
+    [Extra] => auto_increment
+)
+
+[27-May-2025 17:43:44 Europe/Berlin] Array
+(
+    [Field] => name
+    [Type] => varchar(255)
+    [Null] => NO
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:43:44 Europe/Berlin] Array
+(
+    [Field] => price
+    [Type] => int(11)
+    [Null] => NO
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:43:44 Europe/Berlin] Array
+(
+    [Field] => description
+    [Type] => text
+    [Null] => YES
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:43:44 Europe/Berlin] Array
+(
+    [Field] => image
+    [Type] => varchar(255)
+    [Null] => YES
+    [Key] => 
+    [Default] => 
+    [Extra] => 
+)
+
+[27-May-2025 17:43:44 Europe/Berlin] Array
+(
+    [Field] => user_id
+    [Type] => int(11)
+    [Null] => YES
+    [Key] => MUL
+    [Default] => 
+    [Extra] => 
+)
+
